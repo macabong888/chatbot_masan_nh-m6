@@ -14,19 +14,19 @@ import streamlit as st
 from google import genai
 
 # ============================ CÀI ĐẶT (sinh viên sửa ở đây) ============================
-TEN_CONG_TY = "StrideFit"
-TEN_BOT = "Stridey"
+TEN_CONG_TY = "Masan Consumer"
+TEN_BOT = "Masanai"
 TRANG_THAI = "Trợ lý AI · trả lời trong vài giây"
-LOI_CHAO = "Chào bạn, mình là Stridey, trợ lý AI của StrideFit. Mình giải đáp về đặt hàng, giao hàng, đổi trả và bảo hành."
+LOI_CHAO = "Chào Anh/Chị, em là Masanai, trợ lý AI của Masan Consumer. Em hỗ trợ giải đáp hầu hết các thắc mắc của Anh/Chị."
 CAU_HOI_GOI_Y = [
-    "Mình có bao lâu để trả hàng?",
-    "Phí giao hàng bao nhiêu?",
-    "Đổi size có mất phí không?",
+    "Có chương trình khuyến mãi gì mới?",
+    "Phí giao hàng là bao nhiêu?",
+    "Đăng ký hội viên có mất phí không?",
 ]
 GOI_Y_O_NHAP = "Nhắn tin"
-HOTLINE = "1900 0000"
-MAU_CHU_DAO = "#0F6E5C"  # màu thương hiệu, mã hex; chữ trên bóng chat tự đổi trắng/đen cho dễ đọc
-LOGO = "logo.png"  # tệp ảnh vuông cùng thư mục; nếu không có, ảnh đại diện là chữ cái đầu của công ty
+HOTLINE = "1900 6868"
+MAU_CHU_DAO = "#1F70DC" và "#EE4B3A"  # màu thương hiệu, mã hex; chữ trên bóng chat tự đổi trắng/đen cho dễ đọc
+LOGO = "logo.masan.png"  # tệp ảnh vuông cùng thư mục; nếu không có, ảnh đại diện là chữ cái đầu của công ty
 # =====================================================================================
 
 MODEL_MAC_DINH = "gemini-4-hydrogen"  # model trong hướng dẫn nhanh của Google, có gói miễn phí
